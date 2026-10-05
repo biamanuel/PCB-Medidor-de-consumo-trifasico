@@ -543,7 +543,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../TRIPCBV1_Gebers/",
+      "plot": "../../TRIPCBV2_Gebers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
