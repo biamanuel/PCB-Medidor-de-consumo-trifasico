@@ -2650,7 +2650,7 @@
 		)
 		(uuid "1afa1dd5-d614-4743-aed7-4473370e563f")
 	)
-	(label "GPIO1"
+	(label "GPIO0"
 		(at 123.19 92.71 0)
 		(effects
 			(font
@@ -2760,7 +2760,7 @@
 		)
 		(uuid "ae1b786e-e935-4db8-bf16-91636a5c8a6d")
 	)
-	(label "GPIO5"
+	(label "GPIO1"
 		(at 116.84 48.26 0)
 		(effects
 			(font
@@ -2780,7 +2780,7 @@
 		)
 		(uuid "b1c17bd1-37c5-417a-8c73-8639c204f8d9")
 	)
-	(label "GPIO0"
+	(label "GPIO2"
 		(at 66.04 49.53 0)
 		(effects
 			(font
@@ -2810,7 +2810,7 @@
 		)
 		(uuid "be6fc5c4-aa19-4b1c-8dac-ead8e9749f1e")
 	)
-	(label "GPIO2"
+	(label "GPIO5"
 		(at 152.4 115.57 0)
 		(effects
 			(font
