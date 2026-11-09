@@ -5,6 +5,253 @@
 	(uuid "29eed3e5-eefe-4d01-9476-bb175fa8ce64")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AudioJack4_Ground_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J2"
+				(at -2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack4_Ground"
+				(at -2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack4_Ground_2_0_1"
+				(rectangle
+					(start -6.35 -7.62)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack4_Ground_2_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -258,253 +505,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Audio:AudioJack4_Ground"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack4_Ground"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioJack4_Ground_0_1"
-				(rectangle
-					(start -6.35 -7.62)
-					(end -7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack4_Ground_1_1"
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -815,193 +815,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:1N914"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N914"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N914_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N914_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1815,12 +1628,6 @@
 		(uuid "1fbb519b-46f5-40c8-8698-9d046d0b403d")
 	)
 	(junction
-		(at 67.31 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3216f996-3229-4cfe-a70a-786f91bd1024")
-	)
-	(junction
 		(at 138.43 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1845,22 +1652,10 @@
 		(uuid "72c7b7f9-1d9e-45d1-b0fa-b87b4e2a6d1a")
 	)
 	(junction
-		(at 115.57 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "814274e0-80a4-4811-9602-29f33e094676")
-	)
-	(junction
 		(at 106.68 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa46a741-d417-4011-87eb-d28a309191a7")
-	)
-	(junction
-		(at 64.77 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e93b9e62-e1e1-41bc-b3af-1953822a73ac")
 	)
 	(junction
 		(at 48.26 36.83)
@@ -1883,32 +1678,32 @@
 		(uuid "1a9992f2-9be7-4504-b664-52db8a99226b")
 	)
 	(no_connect
+		(at 101.6 57.15)
+		(uuid "3b96f4aa-5156-4f91-905e-ee0a0392980f")
+	)
+	(no_connect
 		(at 96.52 62.23)
 		(uuid "3ff5d751-a1d1-4cf0-8397-cb32d9560147")
 	)
 	(no_connect
-		(at 50.8 53.34)
-		(uuid "51d47bcf-568a-408a-9453-4d68fe409ac6")
-	)
-	(no_connect
-		(at 101.6 54.61)
-		(uuid "572c94db-81b7-47d2-9a6c-f7880d6d97cb")
+		(at 50.8 58.42)
+		(uuid "545ef9ca-5847-4b17-8a37-0d11050680fe")
 	)
 	(no_connect
 		(at 45.72 63.5)
 		(uuid "5f213ce9-c3c8-491c-9a6f-9500cf980ce5")
 	)
 	(no_connect
-		(at 53.34 105.41)
-		(uuid "7122f3d2-d801-4ef7-b7d0-0f31dc6ab437")
+		(at 50.8 53.34)
+		(uuid "7eca84b3-902e-4720-abd5-ef5503de7a18")
 	)
 	(no_connect
 		(at 48.26 113.03)
 		(uuid "9b7a3d78-7817-45bf-9291-684f52577743")
 	)
 	(no_connect
-		(at 50.8 55.88)
-		(uuid "ab10317d-fe6b-41c2-8d0d-1e64b358e041")
+		(at 53.34 107.95)
+		(uuid "b3c08814-27ca-4b2c-8911-168b1eab819f")
 	)
 	(wire
 		(pts
@@ -1922,16 +1717,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f06a0b-1ada-4bc7-be0d-9796e77ffe8a")
-	)
-	(wire
-		(pts
 			(xy 40.64 45.72) (xy 40.64 36.83)
 		)
 		(stroke
@@ -1939,16 +1724,6 @@
 			(type default)
 		)
 		(uuid "08dc5887-66aa-4f77-8668-8bbd3a78711e")
-	)
-	(wire
-		(pts
-			(xy 68.58 99.06) (xy 67.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e750ed-e560-415d-ad02-24cef9bfbced")
 	)
 	(wire
 		(pts
@@ -2012,26 +1787,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 115.57 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249a3a4d-c342-40ad-bea4-659ecf8b5a54")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2732bdd2-6d9d-4707-a6c0-3e1179fa3a32")
-	)
-	(wire
-		(pts
 			(xy 40.64 36.83) (xy 40.64 30.48)
 		)
 		(stroke
@@ -2039,16 +1794,6 @@
 			(type default)
 		)
 		(uuid "293d14e1-ac7d-4378-ba7b-4059dd0dfd28")
-	)
-	(wire
-		(pts
-			(xy 67.31 96.52) (xy 67.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa80c5f-02f8-4047-b8d3-f2dcca4f6e21")
 	)
 	(wire
 		(pts
@@ -2072,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 45.72) (xy 115.57 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f70a953-920c-4824-9eca-f5d6c8138863")
-	)
-	(wire
-		(pts
 			(xy 213.36 68.58) (xy 217.17 68.58)
 		)
 		(stroke
@@ -2089,16 +1824,6 @@
 			(type default)
 		)
 		(uuid "2fbc0061-01da-4009-9aac-de58d34f09e0")
-	)
-	(wire
-		(pts
-			(xy 60.96 107.95) (xy 60.96 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fde8506-a640-4c53-a6af-b2cff8683995")
 	)
 	(wire
 		(pts
@@ -2122,23 +1847,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 48.26) (xy 115.57 49.53)
+			(xy 54.61 52.07) (xy 54.61 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb55bb8-7754-4461-92a8-da99744c4c1b")
-	)
-	(wire
-		(pts
-			(xy 66.04 49.53) (xy 64.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a8cab4-a923-4abd-bbc0-60795d2b6b15")
+		(uuid "3c629034-09d8-4943-824a-37f63be1f8a3")
 	)
 	(wire
 		(pts
@@ -2202,6 +1917,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 55.88) (xy 54.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530efa40-c738-42a8-9375-a4c24d8cf1c5")
+	)
+	(wire
+		(pts
 			(xy 109.22 119.38) (xy 109.22 125.73)
 		)
 		(stroke
@@ -2249,16 +1974,6 @@
 			(type default)
 		)
 		(uuid "67b0d3f6-f947-44b6-ad9d-1e8c1fcee3ec")
-	)
-	(wire
-		(pts
-			(xy 60.96 99.06) (xy 67.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce19a76-f634-4791-a801-75313ad391e8")
 	)
 	(wire
 		(pts
@@ -2322,13 +2037,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 115.57 48.26)
+			(xy 59.69 99.06) (xy 68.58 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "842a5301-9b3b-4123-8ee7-d730efc10226")
+		(uuid "8351e7d0-8d1d-4917-b876-d380806e3a1b")
 	)
 	(wire
 		(pts
@@ -2339,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "8a589297-6c99-4637-b2b3-50f8f454478a")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bf29e7-0e1b-455d-a0fc-3ce34e027e0b")
 	)
 	(wire
 		(pts
@@ -2369,16 +2094,6 @@
 			(type default)
 		)
 		(uuid "93a239af-3bf9-415c-b72e-383ddbbdde7f")
-	)
-	(wire
-		(pts
-			(xy 109.22 57.15) (xy 109.22 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c7dd9c-b5a1-42de-91e7-cb2719d7b85e")
 	)
 	(wire
 		(pts
@@ -2422,16 +2137,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 64.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a283836d-649a-4981-b5c7-90ad13a2d6d1")
-	)
-	(wire
-		(pts
 			(xy 80.01 35.56) (xy 81.28 35.56)
 		)
 		(stroke
@@ -2439,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "a4fc01ff-a178-40e2-a094-0c5fa7711e93")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b425a08b-526c-4935-8aa4-dd8d02436319")
 	)
 	(wire
 		(pts
@@ -2462,23 +2177,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 107.95) (xy 60.96 107.95)
+			(xy 59.69 99.06) (xy 59.69 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8e9633d-46ca-4e56-84f2-efee987670fd")
-	)
-	(wire
-		(pts
-			(xy 64.77 49.53) (xy 64.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a04fbb-bb6a-4ed4-b207-351168c3b3a6")
+		(uuid "c03e5b9c-4c47-4635-bde6-f5e8ee1c9552")
 	)
 	(wire
 		(pts
@@ -2512,16 +2217,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 58.42 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb71056-dc69-4c81-904f-a647a770da10")
-	)
-	(wire
-		(pts
 			(xy 53.34 95.25) (xy 43.18 95.25)
 		)
 		(stroke
@@ -2539,26 +2234,6 @@
 			(type default)
 		)
 		(uuid "d233d34f-8b3f-403d-acfe-87432b70d06c")
-	)
-	(wire
-		(pts
-			(xy 64.77 46.99) (xy 64.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d426b219-d833-433d-848e-592471bbb5bd")
-	)
-	(wire
-		(pts
-			(xy 101.6 57.15) (xy 109.22 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e145dc35-981d-49c3-ac32-58935281ad80")
 	)
 	(wire
 		(pts
@@ -2592,16 +2267,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 99.06) (xy 67.31 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d6d2f4-7019-4407-b717-9eebedd9b6c0")
-	)
-	(wire
-		(pts
 			(xy 48.26 30.48) (xy 48.26 36.83)
 		)
 		(stroke
@@ -2619,6 +2284,16 @@
 			(type default)
 		)
 		(uuid "f4586470-a900-4c86-a889-d6c3bf5f70f8")
+	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 120.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f976c8b2-5a0f-407b-a267-cf70c3fc6483")
 	)
 	(label "3v3"
 		(at 149.86 113.03 0)
@@ -2639,6 +2314,16 @@
 			(justify left bottom)
 		)
 		(uuid "083e9491-2862-4cea-9fd0-3b09bb48915d")
+	)
+	(label "GPIO2"
+		(at 54.61 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0abdb186-5166-47b3-bb30-7a31235c5688")
 	)
 	(label "GPIO4"
 		(at 120.65 116.84 0)
@@ -2700,16 +2385,6 @@
 		)
 		(uuid "71df119c-1274-4ce5-bb0c-c2094358662b")
 	)
-	(label "3v3"
-		(at 64.77 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "764795b9-61e3-493c-b303-cd68e4438b36")
-	)
 	(label "GPIO3"
 		(at 68.58 99.06 0)
 		(effects
@@ -2740,16 +2415,6 @@
 		)
 		(uuid "88031446-14ff-4dce-afaa-d795f697c5e4")
 	)
-	(label "3v3"
-		(at 67.31 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8145d66-b45f-4f12-9737-0cfb2cf0386a")
-	)
 	(label "GPIO4"
 		(at 154.94 72.39 0)
 		(effects
@@ -2761,7 +2426,7 @@
 		(uuid "ae1b786e-e935-4db8-bf16-91636a5c8a6d")
 	)
 	(label "GPIO1"
-		(at 116.84 48.26 0)
+		(at 120.65 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2779,16 +2444,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1c17bd1-37c5-417a-8c73-8639c204f8d9")
-	)
-	(label "GPIO2"
-		(at 66.04 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b770a8c1-26cf-4b38-a52b-91f96b73b342")
 	)
 	(label "3v3"
 		(at 160.02 68.58 0)
@@ -2917,84 +2572,6 @@
 			(project "Mono-Test-Pcb"
 				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fbaa413-fdcc-4c71-8716-da4301a33054")
-		(property "Reference" "#PWR012"
-			(at 67.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90eaba56-d800-4e65-8aa6-baec0eeeaa8f")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3240,173 +2817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack4_Ground")
-		(at 45.72 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3382853e-ad97-4cae-b240-04989bcf01e6")
-		(property "Reference" "J2"
-			(at 43.18 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack4_Ground"
-			(at 43.18 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
-			(at 45.72 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
-			(at 45.72 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "R1"
-			(uuid "902cea2c-af6a-4788-8b54-be16b3004eae")
-		)
-		(pin "G"
-			(uuid "5f18a7b4-f349-434f-a7b3-a6e417d9f1c8")
-		)
-		(pin "T"
-			(uuid "ba546efe-1bb1-4284-9646-6c5d947bca88")
-		)
-		(pin "S"
-			(uuid "52c6f963-7ac2-4947-b7a7-f46755cc689f")
-		)
-		(pin "R2"
-			(uuid "8f9d89a0-8210-4c74-8fd0-76b69fb199df")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "342bdb78-e60e-4f27-b425-b0a02c4fd1f3")
-		(property "Reference" "#PWR02"
-			(at 115.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81089f97-8324-4aa1-b718-50b3fa56158c")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 66.04 90)
 		(unit 1)
@@ -3486,6 +2896,96 @@
 		)
 	)
 	(symbol
+		(lib_name "AudioJack4_Ground_2")
+		(lib_id "Connector_Audio:AudioJack4_Ground")
+		(at 96.52 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45aa9bcd-05a0-465d-b18e-6d212c960c25")
+		(property "Reference" "J5"
+			(at 93.98 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack4_Ground"
+			(at 93.98 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "3b143657-6e1d-4bef-8319-84150be07b8f")
+		)
+		(pin "RN"
+			(uuid "c5833f53-e78c-43d3-bae3-467a987e8788")
+		)
+		(pin "S"
+			(uuid "de9661a1-7cb2-46a9-b4c8-0853ee55d72f")
+		)
+		(pin "R"
+			(uuid "e1bbf66a-035e-475b-9e6f-28a5a6decda6")
+		)
+		(pin "TN"
+			(uuid "5298d42c-f87e-4a0b-b854-ba2fc81c7e0c")
+		)
+		(instances
+			(project "Mono-Test-Pcb"
+				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 35.56 90)
 		(unit 1)
@@ -3558,288 +3058,6 @@
 			(project "Mono-Test-Pcb"
 				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack4_Ground")
-		(at 48.26 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49a705a4-239e-4aca-97d8-ed1f05784fe2")
-		(property "Reference" "J3"
-			(at 45.72 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack4_Ground"
-			(at 45.72 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
-			(at 48.26 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
-			(at 48.26 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "R1"
-			(uuid "35ff114a-7719-4874-8572-0b555f973f32")
-		)
-		(pin "G"
-			(uuid "05fe487d-7996-4fa7-8b09-c2120b36f3ca")
-		)
-		(pin "T"
-			(uuid "c321c606-616c-4c06-b335-34314d41f76d")
-		)
-		(pin "S"
-			(uuid "28da5ea9-a7df-41af-a6d7-28b9494f12bf")
-		)
-		(pin "R2"
-			(uuid "f478cec1-5bbd-4c83-82e9-b3722e84c1d4")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N914")
-		(at 67.31 92.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53f9620a-9240-4ee9-9a36-45b2a4659b12")
-		(property "Reference" "D5"
-			(at 69.85 91.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 69.85 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 62.865 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 67.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 67.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c8335703-f604-49f6-98f2-004435754aac")
-		)
-		(pin "1"
-			(uuid "8c7ce10a-a305-442f-b201-e5c7718e3cef")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack4_Ground")
-		(at 96.52 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "552772e0-f8d7-413c-b77e-b8610543930c")
-		(property "Reference" "J1"
-			(at 93.98 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack4_Ground"
-			(at 93.98 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
-			(at 96.52 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
-			(at 96.52 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "R1"
-			(uuid "3e75d446-ffc9-402f-b2cc-5707b940d4ad")
-		)
-		(pin "G"
-			(uuid "dadb107a-9f2b-46b3-8d48-802152486b30")
-		)
-		(pin "T"
-			(uuid "f6b8a58c-5f34-4a5b-864e-0b553ceed41d")
-		)
-		(pin "S"
-			(uuid "fb1e6487-8af3-4daa-971a-750feed5b4d4")
-		)
-		(pin "R2"
-			(uuid "fc6ccdb9-8a24-4a7b-970a-a3533b7c185b")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3932,214 +3150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N914")
-		(at 67.31 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b15ca1f-077a-4991-908c-ef8fa9695009")
-		(property "Reference" "D6"
-			(at 69.85 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 69.85 105.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 62.865 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 67.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 67.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88133b43-2384-4a8a-b602-39dde810c099")
-		)
-		(pin "1"
-			(uuid "17fc7860-09c3-4daf-802f-93e66c6f6da9")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N914")
-		(at 64.77 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e0ac3d-f6be-45cc-9875-7a93cd40995f")
-		(property "Reference" "D3"
-			(at 67.31 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 67.31 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 60.325 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 64.77 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 64.77 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ec7993c2-8c8a-4006-ac27-4ec227cb45d3")
-		)
-		(pin "1"
-			(uuid "67026bad-0f21-4727-b509-6d784db76d98")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 162.56 66.04 180)
 		(unit 1)
@@ -4212,6 +3222,96 @@
 			(project "Mono-Test-Pcb"
 				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AudioJack4_Ground_2")
+		(lib_id "Connector_Audio:AudioJack4_Ground")
+		(at 45.72 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75ee2f7c-3b18-4eb4-a451-4cf1a229b8be")
+		(property "Reference" "J4"
+			(at 43.18 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack4_Ground"
+			(at 43.18 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
+			(at 45.72 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
+			(at 45.72 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "d27e0028-9e5c-4275-b36e-30c7db33425b")
+		)
+		(pin "RN"
+			(uuid "dfc259af-1971-4076-939a-d4148c144b15")
+		)
+		(pin "S"
+			(uuid "b751e4f0-bf08-4289-ba48-5791a64fcb47")
+		)
+		(pin "R"
+			(uuid "f60c661d-edf5-4a8e-9735-cad0fb46a5f1")
+		)
+		(pin "TN"
+			(uuid "5ac3a8c6-31d6-4e7b-8cc6-d56084005d83")
+		)
+		(instances
+			(project "Mono-Test-Pcb"
+				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4382,6 +3482,96 @@
 		)
 	)
 	(symbol
+		(lib_name "AudioJack4_Ground_2")
+		(lib_id "Connector_Audio:AudioJack4_Ground")
+		(at 48.26 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8160a46f-a331-4b4e-b9d9-299967d0fe87")
+		(property "Reference" "J6"
+			(at 45.72 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack4_Ground"
+			(at 45.72 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3515N_Horizontal"
+			(at 48.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS), Grounded Sleeve"
+			(at 48.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "22f3834a-a2bc-4884-9c82-dd991dbd56fb")
+		)
+		(pin "RN"
+			(uuid "bff10439-daf7-4978-9704-cedb31760ae8")
+		)
+		(pin "S"
+			(uuid "83ac2656-9fc6-4691-a2df-fe0cbc340544")
+		)
+		(pin "R"
+			(uuid "fa610abc-5e27-494c-b737-eba3980bae40")
+		)
+		(pin "TN"
+			(uuid "fab59fb6-2c5b-4d35-b585-e86e20916754")
+		)
+		(instances
+			(project "Mono-Test-Pcb"
+				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 36.83 90)
 		(unit 1)
@@ -4458,110 +3648,6 @@
 			(project "Mono-Test-Pcb"
 				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N914")
-		(at 115.57 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "879ab9f3-4442-48f6-8fba-390a13605961")
-		(property "Reference" "D1"
-			(at 118.11 40.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 118.11 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 111.125 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 115.57 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0055fd77-18fa-49c9-8b8f-6085215a182a")
-		)
-		(pin "1"
-			(uuid "243c8a73-f99c-49e8-9dd0-21ff2cdb62b6")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4804,188 +3890,6 @@
 			(project "Mono-Test-Pcb"
 				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9f53c9e-f00b-4ba9-8e48-857f3726c6a6")
-		(property "Reference" "#PWR010"
-			(at 64.77 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9793efa-fe71-42ec-a934-fa8191ce65eb")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N914")
-		(at 115.57 53.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac3d561a-d9df-42a6-a3d5-ee3cc42914ea")
-		(property "Reference" "D2"
-			(at 118.11 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 118.11 54.6099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 111.125 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 115.57 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 115.57 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 115.57 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 115.57 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ea5e63c0-94fa-4473-982f-513ac64e0b95")
-		)
-		(pin "1"
-			(uuid "b38d2f39-1e92-49dd-88d9-8fa3c300ce31")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5638,110 +4542,6 @@
 			(project "Mono-Test-Pcb"
 				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N914")
-		(at 64.77 54.61 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1581be7-1270-4744-b35f-546b3556dc3a")
-		(property "Reference" "D4"
-			(at 67.31 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 67.31 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 60.325 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 64.77 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 64.77 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c0715299-ed3f-4ac8-96af-dc70c1cd452f")
-		)
-		(pin "1"
-			(uuid "86890ff2-8edc-4b2b-acdb-5b076db3bb38")
-		)
-		(instances
-			(project "Mono-Test-Pcb"
-				(path "/29eed3e5-eefe-4d01-9476-bb175fa8ce64"
-					(reference "D4")
 					(unit 1)
 				)
 			)
